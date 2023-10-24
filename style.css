@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Source+Code+Pro:ital,wght@1,500&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:ital,wght@1,100&family=Source+Code+Pro:ital,wght@1,500&family=Space+Mono&display=swap');
+
+
+h1{
+    text-align: center;
+}
+
+.color, .fonts, .text{
+    border: 3px solid #ccc;
+}
+.color-container, .fonts-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.color-scheme{
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+.color1{
+    background: #2d5dcc;
+}
+.color2{
+    background: #d957d9;
+}
+.color3{
+    background: #4fe0b0;
+}
+.color4{
+    background:#efd9ca;
+}
+.color5{
+    background: #000;
+    color: white;
+}
+.color6{
+    background: #00FFFF;
+}
+
+.header, .color, .fonts, .text{
+    margin: 15px;
+    padding:20px;
+}
+.font-family{
+    text-decoration:underline;
+}
+
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+
+.font-weight-700{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.font-weight-500{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.font-weight-400{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.font-family1{
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+.font-family2{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.font-family3{
+    font-family: 'Poppins', sans-serif;
+}
